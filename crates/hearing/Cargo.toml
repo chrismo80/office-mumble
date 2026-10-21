@@ -1,0 +1,12 @@
+[package]
+name = "office-mumble-hearing"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+office-mumble-wire = { path = "../wire" }
+
+[dev-dependencies]
+# Only for reading `fixtures/hearing-cases.json`, the cases this rule and `client/src/hearing.ts` both answer.
+serde.workspace = true
+serde_json.workspace = true

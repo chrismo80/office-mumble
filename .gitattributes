@@ -1,0 +1,6 @@
+# Shell scripts keep LF everywhere, Windows checkouts included: sh reads a CR as part of the line, and `set -e`
+# becomes an illegal option. Git Bash on Windows runs these too.
+*.sh text eol=lf
+
+# Batch files keep CRLF everywhere: cmd misreads labels and blocks in a file with LF line ends.
+*.cmd text eol=crlf

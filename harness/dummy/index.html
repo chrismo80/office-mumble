@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>office-mumble · a synthetic colleague</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 1.5rem; background: #0f172a; color: #e2e8f0;
+         font: 14px/1.55 ui-sans-serif, system-ui, sans-serif; }
+  h1 { font-size: 1.05rem; margin: 0 0 .35rem; }
+  p { margin: 0 0 .8rem; color: #94a3b8; max-width: 60ch; }
+  code { color: #fde68a; }
+  #state { margin: 1rem 0 .5rem; font-weight: 600; }
+  pre { background: #020617; padding: .75rem 1rem; border-radius: .5rem; overflow: auto; min-height: 6rem;
+        color: #7dd3fc; }
+</style>
+</head>
+<body>
+  <h1>office-mumble · a synthetic colleague</h1>
+  <p>This is not a person. It is a voice the harness makes, so a floor can be listened to without a second
+  human on the other end. Leave this tab open and walk over in the other one.</p>
+  <p>Voices: <code>?source=file</code> a recording beside the page, the closest thing to a colleague ·
+  <code>?source=tone</code> a continuous tone · <code>?source=bursts</code> generated syllables with pauses ·
+  <code>?source=silence</code> a connection and nothing to send.</p>
+  <p>A recording of yours goes into <code>harness/dummy/public/</code> — any <code>.wav</code> — and lands
+  beside this page as <code>./voice.wav</code>, or wherever <code>?voice=</code> points. The repository carries
+  none of its own: without one this page falls back to generated syllables. Something short is enough, it is
+  played in a loop.</p>
+  <div id="state">starting…</div>
+  <pre id="readout">…</pre>
+  <script type="module" src="./dummy.ts"></script>
+</body>
+</html>

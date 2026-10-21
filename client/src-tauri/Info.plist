@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>office-mumble überträgt deine Stimme an die Kolleginnen und Kollegen, die dich im Büro hören können.</string>
+  <!-- macOS asks before a program may reach an address on the local network, and an app that carries no reason
+       for wanting to is never asked — the connection simply fails. The office's server is always on the local
+       network, so the app needs this key to be granted like any other program. -->
+  <key>NSLocalNetworkUsageDescription</key>
+  <string>office-mumble geht ins lokale Netz, weil der Server des Büros dort läuft — ohne ihn wäre niemand zu hören.</string>
+</dict>
+</plist>

@@ -1,0 +1,184 @@
+{
+  "about": "The hearing rule, as cases both implementations answer: crates/hearing and client/src/hearing.ts each run every one. A case that one side passes and the other fails is the two drifting apart. Positions are metres; levels are compared to within 1e-5.",
+  "cell_m": 0.5,
+  "levels": [
+    [0, 1],
+    [2, 1],
+    [3, 0.5555556],
+    [4, 0.3333333],
+    [4.5, 0.2592593],
+    [5, 0.2],
+    [6, 0.1111111],
+    [7.5, 0.0222222],
+    [8, 0],
+    [13, 0]
+  ],
+  "grids": {
+    "two rooms and a wall": [
+      ["wall", "wall", "wall", "wall", "wall", "wall", "wall"],
+      ["wall", "floor", "floor", "wall", "floor", "floor", "wall"],
+      ["wall", "wall", "wall", "wall", "wall", "wall", "wall"]
+    ],
+    "two rooms and an open door": [
+      ["wall", "wall", "wall", "wall", "wall", "wall", "wall"],
+      ["wall", "floor", "floor", "doorOpen", "floor", "floor", "wall"],
+      ["wall", "wall", "wall", "wall", "wall", "wall", "wall"]
+    ],
+    "two rooms and a shut door": [
+      ["wall", "wall", "wall", "wall", "wall", "wall", "wall"],
+      ["wall", "floor", "floor", "doorShut", "floor", "floor", "wall"],
+      ["wall", "wall", "wall", "wall", "wall", "wall", "wall"]
+    ],
+    "a corridor fifteen metres long": [
+      ["floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor",
+       "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor",
+       "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor", "floor"]
+    ],
+    "an open room": [
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"],
+      ["floor", "floor", "floor", "floor", "floor", "floor"]
+    ],
+    "a corner where two walls meet": [
+      ["floor", "wall"],
+      ["wall", "floor"]
+    ],
+    "two floors with the outside between them": [
+      ["floor", "floor", "floor"],
+      ["void", "void", "void"],
+      ["floor", "floor", "floor"]
+    ],
+    "a wall across a short row": [
+      ["floor", "floor", "wall", "floor", "floor"]
+    ]
+  },
+  "cases": [
+    {
+      "says": "nobody is heard through a wall, however close",
+      "grid": "two rooms and a wall",
+      "me": { "id": 1, "x": 0.75, "y": 0.75 },
+      "everybody": [{ "id": 1, "x": 0.75, "y": 0.75 }, { "id": 2, "x": 2.25, "y": 0.75 }],
+      "within": []
+    },
+    {
+      "says": "somebody is heard through an open door",
+      "grid": "two rooms and an open door",
+      "me": { "id": 1, "x": 0.75, "y": 0.75 },
+      "everybody": [{ "id": 1, "x": 0.75, "y": 0.75 }, { "id": 2, "x": 2.25, "y": 0.75 }],
+      "within": [{ "id": 2, "level": 1 }]
+    },
+    {
+      "says": "the same question is answered the same way from the other side",
+      "grid": "two rooms and an open door",
+      "me": { "id": 2, "x": 2.25, "y": 0.75 },
+      "everybody": [{ "id": 1, "x": 0.75, "y": 0.75 }, { "id": 2, "x": 2.25, "y": 0.75 }],
+      "within": [{ "id": 1, "level": 1 }]
+    },
+    {
+      "says": "a shut door puts the other side outside my area altogether",
+      "grid": "two rooms and a shut door",
+      "me": { "id": 1, "x": 0.75, "y": 0.75 },
+      "everybody": [{ "id": 1, "x": 0.75, "y": 0.75 }, { "id": 2, "x": 2.25, "y": 0.75 }],
+      "within": []
+    },
+    {
+      "says": "the room a door shut still hears itself",
+      "grid": "two rooms and a shut door",
+      "me": { "id": 2, "x": 2.25, "y": 0.75 },
+      "everybody": [
+        { "id": 1, "x": 0.75, "y": 0.75 },
+        { "id": 2, "x": 2.25, "y": 0.75 },
+        { "id": 3, "x": 2.75, "y": 0.75 }
+      ],
+      "within": [{ "id": 3, "level": 1 }]
+    },
+    {
+      "says": "nobody hears themselves",
+      "grid": "two rooms and an open door",
+      "me": { "id": 1, "x": 0.75, "y": 0.75 },
+      "everybody": [{ "id": 1, "x": 0.75, "y": 0.75 }],
+      "within": []
+    },
+    {
+      "says": "the loudest come first, and a tie goes to the lower id",
+      "grid": "a corridor fifteen metres long",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [
+        { "id": 1, "x": 0.25, "y": 0.25 },
+        { "id": 2, "x": 5.25, "y": 0.25 },
+        { "id": 4, "x": 1.25, "y": 0.25 },
+        { "id": 3, "x": 2.25, "y": 0.25 }
+      ],
+      "within": [{ "id": 3, "level": 1 }, { "id": 4, "level": 1 }, { "id": 2, "level": 0.2 }]
+    },
+    {
+      "says": "beyond the clear distance a voice fades to a murmur",
+      "grid": "a corridor fifteen metres long",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [
+        { "id": 1, "x": 0.25, "y": 0.25 },
+        { "id": 2, "x": 4.25, "y": 0.25 },
+        { "id": 3, "x": 6.25, "y": 0.25 }
+      ],
+      "within": [{ "id": 2, "level": 0.3333333 }, { "id": 3, "level": 0.1111111 }]
+    },
+    {
+      "says": "out of earshot down an open corridor is still in my area, at level zero",
+      "grid": "a corridor fifteen metres long",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [{ "id": 1, "x": 0.25, "y": 0.25 }, { "id": 2, "x": 13.25, "y": 0.25 }],
+      "within": [{ "id": 2, "level": 0 }]
+    },
+    {
+      "says": "distance is measured straight across a room, not along the cells",
+      "grid": "an open room",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [{ "id": 1, "x": 0.25, "y": 0.25 }, { "id": 2, "x": 2.95, "y": 3.85 }],
+      "within": [{ "id": 2, "level": 0.2592593 }]
+    },
+    {
+      "says": "somebody off the grid is nobody to hear",
+      "grid": "two rooms and an open door",
+      "me": { "id": 1, "x": 0.75, "y": 0.75 },
+      "everybody": [
+        { "id": 1, "x": 0.75, "y": 0.75 },
+        { "id": 2, "x": -0.25, "y": 0.75 },
+        { "id": 3, "x": 2.25, "y": 5.0 }
+      ],
+      "within": []
+    },
+    {
+      "says": "standing on a wall, I am in no area at all",
+      "grid": "two rooms and an open door",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [{ "id": 1, "x": 0.25, "y": 0.25 }, { "id": 2, "x": 2.25, "y": 0.75 }],
+      "within": []
+    },
+    {
+      "says": "sound does not slip round a corner where two walls meet",
+      "grid": "a corner where two walls meet",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [{ "id": 1, "x": 0.25, "y": 0.25 }, { "id": 2, "x": 0.75, "y": 0.75 }],
+      "within": []
+    },
+    {
+      "says": "the outside of the building is no way round",
+      "grid": "two floors with the outside between them",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [{ "id": 1, "x": 0.25, "y": 0.25 }, { "id": 2, "x": 0.25, "y": 1.25 }],
+      "within": []
+    },
+    {
+      "says": "a position on a cell edge belongs to the cell after it",
+      "grid": "a wall across a short row",
+      "me": { "id": 1, "x": 0.25, "y": 0.25 },
+      "everybody": [{ "id": 1, "x": 0.25, "y": 0.25 }, { "id": 2, "x": 1.5, "y": 0.25 }, { "id": 3, "x": 0.99, "y": 0.25 }],
+      "within": [{ "id": 3, "level": 1 }]
+    }
+  ]
+}

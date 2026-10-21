@@ -1,0 +1,26 @@
+[package]
+name = "office-mumble-server"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+office-mumble-wire = { path = "../wire" }
+# The server asks the hearing rule one question — is there a wall or a shut door between two people —
+# before it carries a signal, so it takes the rule itself rather than a second copy of it.
+office-mumble-hearing = { path = "../hearing" }
+serde.workspace = true
+serde_json.workspace = true
+axum = { version = "0.8", features = ["ws"] }
+# TLS with ring, the one crypto library the workspace already has: rcgen and the colleague use it, and a
+# second one is a second C library to build on every platform. Two providers in one build also leave
+# rustls unable to choose, and the server stopped at start; so the provider is picked by name in main.rs.
+axum-server = { version = "0.7", features = ["tls-rustls-no-provider"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12", "logging"] }
+# x509-parser reads the certificate on disk back, to ask whether it still names this machine.
+rcgen = { version = "0.13", features = ["x509-parser"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "time", "sync", "process"] }
+tower-http = { version = "0.6", features = ["fs"] }
+futures-util = "0.3"
+# Only for PR_SET_PDEATHSIG: a colleague process must not outlive the server that started it.
+libc = "0.2"
+

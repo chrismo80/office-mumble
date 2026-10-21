@@ -1,0 +1,19 @@
+[package]
+name = "office-mumble-voice"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# The crate is the codec and nothing else: Opus in, Opus out. The transport is what the tests below prove it
+# against, not something the client links — which is why `webrtc` is a dev-dependency here, and why the only
+# thing that does drive a real connection, the headless colleague, lives in the harness instead.
+audiopus = "0.2"
+
+[dev-dependencies]
+webrtc = "0.21.1"
+# `webrtc` re-exports only part of `rtc`: the codec parameters, the media-sample and the payload-kind enums a
+# track is built from live there. Same version `webrtc` already pins, so this adds no new code to the build.
+rtc = "0.21.1"
+# The peer-connection event-handler trait is declared with `#[async_trait]`; implementing it from outside the
+# crate needs the same macro. Same version `webrtc` already builds against.
+async-trait = "0.1"

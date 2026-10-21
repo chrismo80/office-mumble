@@ -1,0 +1,39 @@
+[package]
+name = "office-mumble-colleague"
+version.workspace = true
+edition.workspace = true
+
+# The harness's colleague, not the product: a headless client that joins the office, obeys the hearing rule and
+# carries real Opus, so a floor can be measured without a browser and without a second person. It lives in the
+# harness because a stand comes down when it is finished — nothing under `crates/` refers to this crate, and
+# deleting this directory and its one line in the workspace manifest removes every trace of it.
+#
+# It depends on the product the right way round: `office-mumble-voice` for the codec, `office-mumble-hearing`
+# for the rule, `office-mumble-wire` for the shapes. The product never depends on the harness.
+[[bin]]
+name = "colleague"
+path = "src/main.rs"
+
+[dependencies]
+audiopus = "0.2"
+webrtc = "0.21.1"
+# `webrtc` wraps `rtc` but re-exports only part of it: the codec parameters, the media-sample and the
+# payload-kind enums a track is built from live in `rtc` itself. Same version `webrtc` already pins.
+rtc = "0.21.1"
+# The peer-connection event-handler trait is declared with `#[async_trait]`; implementing it from outside
+# the crate needs the same macro. Same version `webrtc` already builds against.
+async-trait = "0.1"
+# A colleague speaks the office protocol over a WebSocket while driving the connection and the media, so it
+# needs an async runtime and a WebSocket client of its own.
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "time", "sync"] }
+tokio-tungstenite = { version = "0.29", features = ["rustls-tls-webpki-roots"] }
+# The office server issues its own certificate; this binary is handed that certificate's public half and trusts
+# exactly it, so no verifier that accepts anything is needed anywhere. `rustls-pemfile` is only for reading it.
+rustls = { version = "0.23", features = ["ring"] }
+rustls-pemfile = "2"
+futures-util = "0.3"
+serde.workspace = true
+serde_json.workspace = true
+office-mumble-wire = { path = "../../crates/wire" }
+office-mumble-hearing = { path = "../../crates/hearing" }
+office-mumble-voice = { path = "../../crates/voice" }

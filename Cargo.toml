@@ -1,0 +1,28 @@
+[workspace]
+resolver = "2"
+# `harness/colleague` is the one member that is not a product crate: the headless colleague the stand is
+# measured with. It is a member so it shares this lock file and this target directory rather than resolving
+# and building `webrtc` a second time; remove it from here and delete the directory and the stand is gone.
+members = ["crates/wire", "crates/server", "crates/voice", "crates/hearing", "harness/colleague"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Where the disk goes. A debug build keeps full debug information in **every** artifact, dependencies included,
+# and that is the bulk of a target directory here: the colleague binary is 118 MB with it and 6.9 MB as a
+# release. The office's server is a Raspberry Pi with one 29 GB card, so these are named rather than left to
+# Cargo's defaults — which is also why a cross-target tree is cleaned up after it has been used.
+#
+# Our own code keeps file and line, because that is what a failing test's backtrace is read for; the
+# dependencies lose theirs, which is where the bytes are and which nobody reads a line of. A test run and a
+# backtrace stay what they were; only the directory shrinks.
+[profile.dev]
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+debug = false

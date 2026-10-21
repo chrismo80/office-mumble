@@ -1,0 +1,8838 @@
+{
+  "version": 1,
+  "cell_m": 0.5,
+  "floors": [
+    {
+      "name": "Ground floor",
+      "surface": "parquet",
+      "cells": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorOpen",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorShut",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorShut",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ]
+      ],
+      "painted": [
+        {
+          "row": 1,
+          "col": 1,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 6,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 7,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 8,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 6,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 7,
+          "surface": "concrete"
+        },
+        {
+          "row": 2,
+          "col": 8,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 6,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 7,
+          "surface": "concrete"
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 6,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 7,
+          "surface": "concrete"
+        },
+        {
+          "row": 4,
+          "col": 8,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 6,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "surface": "concrete"
+        },
+        {
+          "row": 5,
+          "col": 8,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 1,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 2,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 3,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 4,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 5,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 6,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "surface": "concrete"
+        },
+        {
+          "row": 6,
+          "col": 8,
+          "surface": "concrete"
+        },
+        {
+          "row": 1,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 1,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 2,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 3,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 4,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 5,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 6,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 7,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 11,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 12,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 13,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 14,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 15,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 16,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 17,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 18,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 19,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 20,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 21,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 22,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 23,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 24,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 25,
+          "surface": "tile"
+        },
+        {
+          "row": 8,
+          "col": 26,
+          "surface": "tile"
+        },
+        {
+          "row": 15,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 13,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 2,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 37,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 22,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 23,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 24,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 25,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 12,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 13,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 14,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 15,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 16,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 17,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 18,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 19,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 20,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 21,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 38,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 31,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 32,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 33,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 38,
+          "surface": "carpet"
+        }
+      ],
+      "objects": [
+        {
+          "kind": "pottedPlant",
+          "row": 6,
+          "col": 8,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenFridge",
+          "row": 1,
+          "col": 14,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 1,
+          "col": 15,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 1,
+          "col": 16,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenSink",
+          "row": 1,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 1,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 1,
+          "col": 19,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenStove",
+          "row": 1,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 1,
+          "col": 21,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 1,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCoffeeMachine",
+          "row": 1,
+          "col": 23,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenMicrowave",
+          "row": 1,
+          "col": 24,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinetUpper",
+          "row": 1,
+          "col": 25,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 16,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 16,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 17,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 18,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 19,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 19,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 20,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 21,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 21,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenCabinet",
+          "row": 5,
+          "col": 22,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 6,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenBarEnd",
+          "row": 6,
+          "col": 15,
+          "facing": "east"
+        },
+        {
+          "kind": "kitchenBarEnd",
+          "row": 6,
+          "col": 23,
+          "facing": "west"
+        },
+        {
+          "kind": "stoolBar",
+          "row": 7,
+          "col": 17,
+          "facing": "north"
+        },
+        {
+          "kind": "stoolBar",
+          "row": 7,
+          "col": 19,
+          "facing": "north"
+        },
+        {
+          "kind": "stoolBar",
+          "row": 7,
+          "col": 21,
+          "facing": "north"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 1,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 1,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 9,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 1,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 1,
+          "col": 32,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 1,
+          "col": 33,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 1,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 1,
+          "col": 35,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 1,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 1,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 6,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 5,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 7,
+          "col": 34,
+          "facing": "north"
+        },
+        {
+          "kind": "bench",
+          "row": 6,
+          "col": 38,
+          "facing": "west"
+        },
+        {
+          "kind": "plantSmall2",
+          "row": 10,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 11,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 12,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 13,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 14,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 15,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 16,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 12,
+          "col": 5,
+          "facing": "east"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 15,
+          "col": 5,
+          "facing": "east"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 13,
+          "col": 4,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall1",
+          "row": 14,
+          "col": 6,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 9,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 24,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 18,
+          "col": 15,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 17,
+          "col": 15,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 19,
+          "col": 15,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 18,
+          "col": 16,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 17,
+          "col": 16,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 19,
+          "col": 16,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 18,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 17,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 19,
+          "col": 17,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 18,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 17,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 19,
+          "col": 18,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 18,
+          "col": 19,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 17,
+          "col": 19,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 19,
+          "col": 19,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 18,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 17,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 19,
+          "col": 20,
+          "facing": "north"
+        },
+        {
+          "kind": "plantSmall3",
+          "row": 15,
+          "col": 13,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 21,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "cabinetTelevision",
+          "row": 32,
+          "col": 1,
+          "facing": "east"
+        },
+        {
+          "kind": "loungeSofaLong",
+          "row": 32,
+          "col": 8,
+          "facing": "west"
+        },
+        {
+          "kind": "loungeSofaLong",
+          "row": 37,
+          "col": 5,
+          "facing": "north"
+        },
+        {
+          "kind": "tableCoffeeGlass",
+          "row": 32,
+          "col": 5,
+          "facing": "east"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 29,
+          "col": 5,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeSofaOttoman",
+          "row": 29,
+          "col": 8,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 28,
+          "col": 2,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 37,
+          "col": 9,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 27,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 38,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall1",
+          "row": 36,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeSofaLong",
+          "row": 26,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeSofaLong",
+          "row": 32,
+          "col": 20,
+          "facing": "north"
+        },
+        {
+          "kind": "tableCoffeeGlass",
+          "row": 29,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChairRelax",
+          "row": 29,
+          "col": 24,
+          "facing": "west"
+        },
+        {
+          "kind": "loungeSofaOttoman",
+          "row": 29,
+          "col": 16,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 25,
+          "col": 24,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 33,
+          "col": 15,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 38,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall2",
+          "row": 24,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "cabinetTelevision",
+          "row": 12,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 17,
+          "col": 33,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 16,
+          "col": 33,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 18,
+          "col": 33,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 17,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 16,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 18,
+          "col": 34,
+          "facing": "north"
+        },
+        {
+          "kind": "table",
+          "row": 17,
+          "col": 35,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 16,
+          "col": 35,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 18,
+          "col": 35,
+          "facing": "north"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 12,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 21,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall3",
+          "row": 21,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 25,
+          "col": 35,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 24,
+          "col": 35,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 26,
+          "col": 35,
+          "facing": "north"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 23,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 27,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 37,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 36,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "computerScreen",
+          "row": 38,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 37,
+          "col": 32,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 36,
+          "col": 32,
+          "facing": "south"
+        },
+        {
+          "kind": "computerScreen",
+          "row": 38,
+          "col": 32,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 37,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 36,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "laptop",
+          "row": 38,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 37,
+          "col": 36,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 36,
+          "col": 36,
+          "facing": "south"
+        },
+        {
+          "kind": "computerScreen",
+          "row": 38,
+          "col": 36,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 37,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 34,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 38,
+          "col": 28,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 1,
+          "col": 4,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 4,
+          "col": 4,
+          "facing": "south"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Lobby",
+          "row": 3,
+          "col": 4
+        },
+        {
+          "text": "Kitchen",
+          "row": 3,
+          "col": 20
+        },
+        {
+          "text": "Reading corner",
+          "row": 19,
+          "col": 5
+        },
+        {
+          "text": "Dining table",
+          "row": 23,
+          "col": 17
+        },
+        {
+          "text": "Chill corner",
+          "row": 35,
+          "col": 20
+        },
+        {
+          "text": "Meeting",
+          "row": 20,
+          "col": 34
+        },
+        {
+          "text": "Focus",
+          "row": 27,
+          "col": 32
+        },
+        {
+          "text": "Window seats",
+          "row": 33,
+          "col": 33
+        }
+      ],
+      "stairs": [
+        {
+          "row": 2,
+          "col": 2,
+          "rows": 2,
+          "cols": 6,
+          "exits": "east",
+          "to": 1
+        }
+      ]
+    },
+    {
+      "name": "First floor",
+      "surface": "parquet",
+      "cells": [
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorOpen",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "doorOpen",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorOpen",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorOpen",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "doorOpen",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "doorOpen",
+          "wall",
+          "wall",
+          "wall",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "window",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "window"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "doorOpen",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "floor",
+          "wall"
+        ],
+        [
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall",
+          "wall",
+          "window",
+          "window",
+          "window",
+          "window",
+          "wall",
+          "wall"
+        ]
+      ],
+      "painted": [
+        {
+          "row": 23,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 23,
+          "col": 11,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 24,
+          "col": 11,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 25,
+          "col": 11,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 26,
+          "col": 11,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 27,
+          "col": 11,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 3,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 4,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 5,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 6,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 7,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 8,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 9,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 10,
+          "surface": "carpet"
+        },
+        {
+          "row": 28,
+          "col": 11,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 34,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 35,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 14,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 15,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 16,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 17,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 18,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 19,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 20,
+          "surface": "carpet"
+        },
+        {
+          "row": 36,
+          "col": 21,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 27,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 28,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 29,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 27,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 28,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 29,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 27,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 28,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 29,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 27,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 28,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 29,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 27,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 28,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 29,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 30,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 29,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 30,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 31,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 32,
+          "col": 37,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 34,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 35,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 36,
+          "surface": "carpet"
+        },
+        {
+          "row": 33,
+          "col": 37,
+          "surface": "carpet"
+        }
+      ],
+      "objects": [
+        {
+          "kind": "desk",
+          "row": 5,
+          "col": 3,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 6,
+          "col": 3,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 7,
+          "col": 3,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 8,
+          "col": 3,
+          "facing": "north"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 8,
+          "col": 5,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 5,
+          "col": 11,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 6,
+          "col": 11,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 5,
+          "col": 13,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 6,
+          "col": 13,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 7,
+          "col": 11,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 8,
+          "col": 11,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 7,
+          "col": 13,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 8,
+          "col": 13,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 13,
+          "col": 3,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 14,
+          "col": 3,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 13,
+          "col": 5,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 14,
+          "col": 5,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 15,
+          "col": 3,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 16,
+          "col": 3,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 15,
+          "col": 5,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 16,
+          "col": 5,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 13,
+          "col": 11,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 14,
+          "col": 11,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 13,
+          "col": 13,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 14,
+          "col": 13,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 15,
+          "col": 11,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 16,
+          "col": 11,
+          "facing": "north"
+        },
+        {
+          "kind": "desk",
+          "row": 15,
+          "col": 13,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 16,
+          "col": 13,
+          "facing": "north"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 10,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 11,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 18,
+          "col": 23,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 1,
+          "col": 10,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 1,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 9,
+          "col": 23,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 14,
+          "col": 23,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 18,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall1",
+          "row": 18,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 9,
+          "col": 8,
+          "facing": "south"
+        },
+        {
+          "kind": "coatRack",
+          "row": 4,
+          "col": 23,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 18,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 6,
+          "col": 29,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 6,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 6,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 6,
+          "col": 32,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 5,
+          "col": 29,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 7,
+          "col": 29,
+          "facing": "north"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 5,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 7,
+          "col": 30,
+          "facing": "north"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 5,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 7,
+          "col": 31,
+          "facing": "north"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 5,
+          "col": 32,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 7,
+          "col": 32,
+          "facing": "north"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 6,
+          "col": 28,
+          "facing": "east"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 6,
+          "col": 33,
+          "facing": "west"
+        },
+        {
+          "kind": "cabinetTelevision",
+          "row": 2,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 2,
+          "col": 36,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 2,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 11,
+          "col": 37,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 11,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "kitchenSink",
+          "row": 15,
+          "col": 26,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenStove",
+          "row": 15,
+          "col": 27,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 15,
+          "col": 28,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 15,
+          "col": 29,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBar",
+          "row": 15,
+          "col": 30,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenBarEnd",
+          "row": 15,
+          "col": 31,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenFridge",
+          "row": 15,
+          "col": 33,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenCoffeeMachine",
+          "row": 15,
+          "col": 34,
+          "facing": "north"
+        },
+        {
+          "kind": "kitchenCabinetUpper",
+          "row": 15,
+          "col": 35,
+          "facing": "north"
+        },
+        {
+          "kind": "stoolBar",
+          "row": 16,
+          "col": 29,
+          "facing": "south"
+        },
+        {
+          "kind": "stoolBar",
+          "row": 16,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 21,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 20,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 22,
+          "col": 31,
+          "facing": "north"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 21,
+          "col": 30,
+          "facing": "east"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 21,
+          "col": 32,
+          "facing": "west"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 24,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 24,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 24,
+          "col": 37,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 14,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 24,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 14,
+          "col": 37,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeSofaCorner",
+          "row": 24,
+          "col": 5,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 25,
+          "col": 10,
+          "facing": "west"
+        },
+        {
+          "kind": "tableCoffeeGlass",
+          "row": 26,
+          "col": 8,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeSofaOttoman",
+          "row": 28,
+          "col": 10,
+          "facing": "south"
+        },
+        {
+          "kind": "cabinetTelevision",
+          "row": 22,
+          "col": 8,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 26,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 25,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 27,
+          "col": 17,
+          "facing": "north"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 26,
+          "col": 16,
+          "facing": "east"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 26,
+          "col": 18,
+          "facing": "west"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 29,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 21,
+          "col": 2,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 29,
+          "col": 2,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 21,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 22,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 27,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 29,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 31,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 32,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 33,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 34,
+          "col": 1,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChairRelax",
+          "row": 33,
+          "col": 16,
+          "facing": "west"
+        },
+        {
+          "kind": "loungeChairRelax",
+          "row": 33,
+          "col": 19,
+          "facing": "east"
+        },
+        {
+          "kind": "lampRoundTable",
+          "row": 33,
+          "col": 13,
+          "facing": "south"
+        },
+        {
+          "kind": "tableCoffeeGlass",
+          "row": 34,
+          "col": 17,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 36,
+          "col": 4,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 37,
+          "col": 4,
+          "facing": "north"
+        },
+        {
+          "kind": "lampRoundTable",
+          "row": 36,
+          "col": 6,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 35,
+          "col": 11,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 35,
+          "col": 10,
+          "facing": "east"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 35,
+          "col": 12,
+          "facing": "west"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 38,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 31,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 38,
+          "col": 12,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 38,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 31,
+          "col": 28,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 32,
+          "col": 28,
+          "facing": "north"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 28,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 35,
+          "col": 30,
+          "facing": "west"
+        },
+        {
+          "kind": "tableCoffeeGlass",
+          "row": 35,
+          "col": 28,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundTable",
+          "row": 33,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall2",
+          "row": 27,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 37,
+          "col": 30,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 37,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "desk",
+          "row": 31,
+          "col": 35,
+          "facing": "south"
+        },
+        {
+          "kind": "chairDesk",
+          "row": 32,
+          "col": 35,
+          "facing": "north"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 28,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 35,
+          "col": 36,
+          "facing": "east"
+        },
+        {
+          "kind": "tableCoffeeGlass",
+          "row": 35,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundTable",
+          "row": 33,
+          "col": 37,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall3",
+          "row": 27,
+          "col": 33,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 37,
+          "col": 34,
+          "facing": "south"
+        },
+        {
+          "kind": "trashcan",
+          "row": 37,
+          "col": 38,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 7,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 7,
+          "col": 19,
+          "facing": "east"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 7,
+          "col": 21,
+          "facing": "west"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 1,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 1,
+          "col": 21,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 3,
+          "col": 23,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall2",
+          "row": 17,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 17,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "bench",
+          "row": 18,
+          "col": 5,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 11,
+          "col": 31,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 11,
+          "col": 36,
+          "facing": "south"
+        },
+        {
+          "kind": "table",
+          "row": 21,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 20,
+          "col": 27,
+          "facing": "south"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 22,
+          "col": 27,
+          "facing": "north"
+        },
+        {
+          "kind": "chairRounded",
+          "row": 21,
+          "col": 26,
+          "facing": "east"
+        },
+        {
+          "kind": "bench",
+          "row": 18,
+          "col": 37,
+          "facing": "west"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 19,
+          "col": 26,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 21,
+          "col": 20,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 28,
+          "col": 20,
+          "facing": "north"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 23,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 28,
+          "col": 3,
+          "facing": "south"
+        },
+        {
+          "kind": "loungeChair",
+          "row": 36,
+          "col": 18,
+          "facing": "north"
+        },
+        {
+          "kind": "plantSmall3",
+          "row": 34,
+          "col": 21,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 12,
+          "col": 24,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseOpen",
+          "row": 13,
+          "col": 24,
+          "facing": "south"
+        },
+        {
+          "kind": "bookcaseClosed",
+          "row": 8,
+          "col": 24,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 9,
+          "col": 16,
+          "facing": "south"
+        },
+        {
+          "kind": "pottedPlant",
+          "row": 15,
+          "col": 18,
+          "facing": "south"
+        },
+        {
+          "kind": "plantSmall1",
+          "row": 18,
+          "col": 21,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 12,
+          "col": 22,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 17,
+          "col": 15,
+          "facing": "south"
+        },
+        {
+          "kind": "bench",
+          "row": 19,
+          "col": 14,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 1,
+          "col": 4,
+          "facing": "south"
+        },
+        {
+          "kind": "lampRoundFloor",
+          "row": 4,
+          "col": 4,
+          "facing": "south"
+        }
+      ],
+      "labels": [
+        {
+          "text": "Open space",
+          "row": 4,
+          "col": 8
+        },
+        {
+          "text": "Open space",
+          "row": 12,
+          "col": 8
+        },
+        {
+          "text": "Open space",
+          "row": 8,
+          "col": 19
+        },
+        {
+          "text": "Meeting",
+          "row": 4,
+          "col": 32
+        },
+        {
+          "text": "Kitchen",
+          "row": 18,
+          "col": 29
+        },
+        {
+          "text": "Living room",
+          "row": 24,
+          "col": 13
+        },
+        {
+          "text": "Library",
+          "row": 34,
+          "col": 18
+        },
+        {
+          "text": "Quiet room",
+          "row": 34,
+          "col": 28
+        },
+        {
+          "text": "Quiet room",
+          "row": 34,
+          "col": 35
+        }
+      ],
+      "stairs": [
+        {
+          "row": 2,
+          "col": 2,
+          "rows": 2,
+          "cols": 6,
+          "exits": "west",
+          "to": 0
+        }
+      ]
+    }
+  ],
+  "arrival": {
+    "floor": 0,
+    "row": 3,
+    "col": 23
+  }
+}

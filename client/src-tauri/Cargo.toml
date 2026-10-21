@@ -1,0 +1,64 @@
+[package]
+name = "office-mumble-shell"
+version = "0.0.0"
+edition = "2021"
+publish = false
+description = "The operating-system half of the client: the window, the tray, and the screen lock"
+
+# A workspace of its own, deliberately outside the repository's. `cargo test --workspace` is what every machine
+# runs, including a Linux one without the webview's development headers that Tauri needs to build; the shell is
+# the client's host and is built where a window is wanted.
+[workspace]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+futures-util = { version = "0.3", default-features = false, features = ["sink"] }
+# Only for the SHA-256 of a certificate, so a refusal can be read off against `openssl`'s own output. ring is
+# already in the tree under rustls, so this names it rather than adding it.
+ring = "0.17"
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12", "logging"] }
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["macros", "sync"] }
+tokio-tungstenite = { version = "0.30", default-features = false, features = ["connect", "__rustls-tls"] }
+
+[target.'cfg(windows)'.dependencies]
+# The WebView2 permission handler, so the microphone request is answered in code: WebView2 stores the answer to
+# its own dialog in the app's profile with no way back to it, and one stray *Don't allow* would be a person who
+# can never be heard again. Both crates are already in the tree under wry, so this names them rather than adding
+# them — the versions are the ones wry already locks.
+webview2-com = "0.39"
+windows-core = "0.62"
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_Security_Authentication_Identity",
+    "Win32_System_LibraryLoader",
+    "Win32_System_RemoteDesktop",
+    "Win32_UI_WindowsAndMessaging",
+] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+block2 = "0.6"
+objc2 = "0.6"
+objc2-foundation = { version = "0.3", features = [
+    "block2",
+    "NSDistributedNotificationCenter",
+    "NSNotification",
+    "NSObject",
+    "NSOperation",
+    "NSPathUtilities",
+    "NSString",
+] }
+objc2-app-kit = { version = "0.3", features = ["NSWorkspace"] }
+
+# The same two profiles as the repository's own, and for the same reason: this workspace has a target directory
+# of its own on the same small disk, and Tauri's debug tree is the bigger of the two. Nearly all of it is
+# dependency debug information nobody reads.
+[profile.dev]
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+debug = false

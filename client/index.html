@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Office Mumble</title>
+  <link rel="stylesheet" href="/src/shell.css" />
+</head>
+<body>
+  <div class="frame">
+    <!--
+      The navigation rail: every place the client has, by name, with the live state of the building on the
+      item it belongs to. The collapse control carries its own state, so what folds away is told as well as
+      seen. While it is collapsed the icons stay and every label moves into a `title`, so nothing becomes
+      unnamed — a rail that hides what it is does not collapse, it disappears.
+    -->
+    <aside class="rail" id="rail">
+      <div class="brand">
+        <div class="mark" aria-hidden="true"></div>
+        <div class="brand-text">
+          <b>Office Mumble</b>
+          <small id="brand-floor">—</small>
+        </div>
+        <button class="collapse" id="rail-toggle" type="button" aria-expanded="true" aria-controls="rail-nav"
+                aria-label="Collapse navigation" title="Collapse navigation">«</button>
+      </div>
+
+      <nav class="nav" id="rail-nav" aria-label="Main navigation">
+        <button class="nav-item" type="button" data-view="office" title="Office">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 16 16"><rect x="2.4" y="2.8" width="11.2" height="10.4" rx="1.6"/><path d="M6.8 2.8v10.4M6.8 8.2h6.8"/></svg></span><span class="nav-label">Office</span>
+        </button>
+        <button class="nav-item" type="button" data-view="build" title="Build">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2.8 13.2l.9-3 7.4-7.4a1.4 1.4 0 0 1 2 2l-7.4 7.4-2.9.9z"/><path d="M9.6 4.3l2 2"/></svg></span><span class="nav-label">Build</span>
+          <span class="nav-badge" id="build-badge" hidden></span>
+        </button>
+        <button class="nav-item" type="button" data-view="figure" title="You">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 16 16"><circle cx="8" cy="5.6" r="2.5"/><path d="M3.4 13.4c0-2.5 2-4.1 4.6-4.1s4.6 1.6 4.6 4.1"/></svg></span><span class="nav-label">You</span>
+        </button>
+        <button class="nav-item" type="button" data-view="settings" title="Settings">
+          <span class="ico" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M2.6 5.2h10.8M2.6 10.8h10.8"/><circle cx="6.2" cy="5.2" r="1.7"/><circle cx="9.8" cy="10.8" r="1.7"/></svg></span><span class="nav-label">Settings</span>
+        </button>
+      </nav>
+
+      <div class="rail-foot">
+        <div class="pill"><span class="dot" id="rail-dot"></span><span class="state" id="rail-state">connecting …</span></div>
+        <div class="pill" id="rail-mic-pill"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.6a2.15 2.15 0 0 1 2.15 2.15v3.7a2.15 2.15 0 0 1-4.3 0v-3.7A2.15 2.15 0 0 1 8 1.6Z"/><path d="M3.7 7.3a4.3 4.3 0 0 0 8.6 0M8 11.6v2.4M5.7 14h4.6"/></svg><span class="state" id="rail-mic">Sound off</span><kbd>M</kbd></div>
+      </div>
+    </aside>
+
+    <div class="main">
+      <div class="top">
+        <div class="where" id="where"></div>
+        <button class="search" id="search-open" type="button" aria-haspopup="dialog" title="Find a command or a place">
+          <span>Search</span><kbd>⌘K</kbd>
+        </button>
+      </div>
+
+      <!--
+        The places. Only one is not `hidden`, which is what makes the editors places of their own rather
+        than panels drawn over the map: a control in a hidden view cannot be reached by any click, so the
+        office has no way to reach a tool at all — not because the tools refuse, but because they are not
+        there. The map itself is one canvas moved between the two places that show a floor, so there is
+        one floor, one camera and one drawing, never a second copy.
+      -->
+      <div class="views" id="views">
+        <section class="view office" id="view-office" data-view="office" aria-label="Office"></section>
+
+        <section class="view" id="view-build" data-view="build" aria-label="Build" hidden>
+          <div class="banner" id="build-banner" role="status"></div>
+          <div class="summon" id="summon" role="alertdialog" aria-live="assertive" hidden>
+            <span class="summon-what" id="summon-what"></span>
+            <button class="btn primary" type="button" id="summon-go">Go</button>
+            <button class="btn" type="button" id="summon-no">Not now</button>
+          </div>
+          <div class="build-row">
+            <nav class="toolbar" id="toolbar" aria-label="Tools"></nav>
+            <div class="stage" id="build-stage"></div>
+            <aside class="inspector-pane" aria-label="Selection and furniture">
+              <div class="inspector" id="inspector"></div>
+              <div class="catalogue-pane">
+                <div class="catalogue-head">
+                  <span class="sect">Furniture</span>
+                  <input id="catalogue-search" type="search" placeholder="Search …" aria-label="Search furniture" />
+                </div>
+                <div class="catalogue" id="catalogue"></div>
+                <div class="plan-io">
+                  <span class="sect">Plan</span>
+                  <div class="plan-io-row">
+                    <button class="mini" id="plan-export" type="button">Export</button>
+                    <button class="mini" id="plan-import" type="button">Import</button>
+                  </div>
+                </div>
+              </div>
+              <input id="plan-file" type="file" accept="application/json,.json" hidden />
+            </aside>
+          </div>
+        </section>
+
+        <section class="view figure-view" id="view-figure" data-view="figure" aria-label="You" hidden>
+          <div class="figure-card">
+            <header>
+              <b>You</b>
+              <small>Your figure — changed only here, and only when you hand it over. Everybody sees it once you do.</small>
+            </header>
+            <div class="figure-body">
+              <div class="preview-pane"><canvas id="figure-preview" width="150" height="184" aria-label="your figure"></canvas></div>
+              <div class="fields">
+                <div class="group">
+                  <span class="sect">Name</span>
+                  <div class="readonly" id="figure-name">—</div>
+                  <p class="note">The name comes from the directory, not from a figure.</p>
+                </div>
+                <div class="group">
+                  <span class="sect">Head</span>
+                  <div class="chips" id="figure-head"></div>
+                </div>
+                <div class="group">
+                  <span class="sect">Body</span>
+                  <div class="chips" id="figure-body"></div>
+                </div>
+                <div class="group">
+                  <span class="sect">Arms</span>
+                  <div class="chips" id="figure-arms"></div>
+                </div>
+                <div class="group">
+                  <span class="sect">Colours</span>
+                  <div class="wells" id="figure-colours"></div>
+                  <p class="note">Skin · hair · shirt · trousers — a colour that is not allowed is refused, not guessed.</p>
+                </div>
+              </div>
+            </div>
+            <footer>
+              <button class="btn" id="figure-cancel" type="button">Cancel <kbd>Esc</kbd></button>
+              <button class="btn primary" id="figure-apply" type="button">Hand over</button>
+            </footer>
+          </div>
+        </section>
+
+        <section class="view" id="view-settings" data-view="settings" aria-label="Settings" hidden>
+          <div class="settings">
+            <section>
+              <h2>Sound</h2>
+              <div class="card">
+                <div class="setting">
+                  <span class="what"><b>Microphone</b><span class="why" id="mic-why">—</span></span>
+                  <select id="mic-select" aria-label="Choose a microphone"></select>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Speakers</b><span class="why" id="speaker-why">—</span></span>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Mute</b><span class="why">The microphone stops; you still hear, and the figure wears it.</span></span>
+                  <button class="switch danger" id="settings-mute" type="button" role="switch" aria-checked="false" aria-label="Mute"></button>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Show the audible area</b><span class="why">Draws the cells you can be heard from — a measuring aid, not a picture.</span></span>
+                  <button class="switch" id="settings-audible" type="button" role="switch" aria-checked="false" aria-label="Show the audible area"></button>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>The office follows the clock</b><span class="why">In the evening it warms and the lamps come on; at night the room is dark. Off means daylight always.</span></span>
+                  <button class="switch" id="settings-light" type="button" role="switch" aria-checked="true" aria-label="The office follows the clock"></button>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>My desk</b><span class="why">Where you arrive when you come back. <span id="settings-seat">nowhere yet</span> — stand where you want to arrive and take the place; it stays on this machine.</span></span>
+                  <span class="range">
+                    <button class="mini" id="settings-seat-set" type="button">Take this place</button>
+                    <button class="mini" id="settings-seat-clear" type="button">Forget</button>
+                  </span>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Camera follows you</b><span class="why">How far you may walk from the middle before the view moves. Small keeps you centred; large leaves the view alone until you reach the edge.</span></span>
+                  <span class="range">
+                    <input class="slider" id="settings-deadzone" type="range" min="0" max="100" step="5" value="55" aria-label="Camera dead zone">
+                    <output id="settings-deadzone-value" for="settings-deadzone">55%</output>
+                  </span>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Sound profile</b><span class="why">How near and far are shaped — for your ear only, never for what the server hands out.</span></span>
+                  <div class="profiles" id="sound-profile" role="radiogroup" aria-label="Sound profile">
+                    <button class="profile" type="button" role="radio" data-profile="near" aria-checked="false" title="Near — close voices clear, far ones quickly dull">
+                      <svg viewBox="0 0 44 22" aria-hidden="true"><path d="M2 4 C10 4 12 18 20 19 S30 21 42 21" /></svg>
+                    </button>
+                    <button class="profile" type="button" role="radio" data-profile="room" aria-checked="false" title="Room — the default curve of a room">
+                      <svg viewBox="0 0 44 22" aria-hidden="true"><path d="M2 4 C12 5 18 14 24 16 S34 19 42 19" /></svg>
+                    </button>
+                    <button class="profile" type="button" role="radio" data-profile="wide" aria-checked="false" title="Wide — far voices stay present">
+                      <svg viewBox="0 0 44 22" aria-hidden="true"><path d="M2 4 C14 5 24 10 32 12 S38 13 42 13" /></svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Direction</b><span class="why">Whether left and right come from your screen or from where your figure is looking.</span></span>
+                  <select id="sound-side" aria-label="Direction of the sound">
+                    <option value="avatar">From the figure</option>
+                    <option value="user">From my screen</option>
+                  </select>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Closed office</b><span class="why">Where the top end stops in a small, carpeted room. Lower is softer and more enclosed.</span></span>
+                  <span class="range">
+                    <input class="slider" id="room-studio" type="range" min="2000" max="8000" step="100" value="4500" aria-label="Closed office cutoff">
+                    <output id="room-studio-value" for="room-studio">4.5 kHz</output>
+                  </span>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Open floor</b><span class="why">The same for a large, open room: higher keeps the air in.</span></span>
+                  <span class="range">
+                    <input class="slider" id="room-open" type="range" min="6000" max="16000" step="500" value="12000" aria-label="Open floor cutoff">
+                    <output id="room-open-value" for="room-open">12 kHz</output>
+                  </span>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Room tail</b><span class="why">How long the room may ring, at its largest. Zero is a dead room.</span></span>
+                  <span class="range">
+                    <input class="slider" id="room-tail" type="range" min="0" max="150" step="5" value="60" aria-label="Longest reverberation">
+                    <output id="room-tail-value" for="room-tail">0.6 s</output>
+                  </span>
+                </div>
+                <div class="setting">
+                  <span class="what"><b>Room level</b><span class="why">How much of that ring reaches your ear, under the dry voice.</span></span>
+                  <span class="range">
+                    <input class="slider" id="room-level" type="range" min="0" max="40" step="1" value="15" aria-label="Reverb level">
+                    <output id="room-level-value" for="room-level">15%</output>
+                  </span>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <h2>Connection</h2>
+              <div class="card">
+                <form class="name-form" id="name-form" hidden>
+                  <label class="field"><span>Your name</span>
+                    <input id="name-input" type="text" placeholder="empty: the name from the system" spellcheck="false" autocomplete="off" />
+                  </label>
+                  <button class="btn primary" type="submit">Apply</button>
+                </form>
+                <div class="state-line" id="settings-link">—</div>
+                <div class="state-line" id="settings-tls">—</div>
+                <div class="state-line" id="settings-cert">—</div>
+              </div>
+            </section>
+
+            <section>
+              <h2>Keyboard</h2>
+              <div class="card">
+                <div class="keys">
+                  <div><span>Find a command or a place</span><span class="k"><kbd>⌘K</kbd> / <kbd>Ctrl</kbd>+<kbd>K</kbd></span></div>
+                  <div><span>Mute</span><span class="k"><kbd>M</kbd></span></div>
+                  <div><span>Leave a view, close the search</span><span class="k"><kbd>Esc</kbd></span></div>
+                  <div><span>Back to the office</span><span class="k"><kbd>⌘[</kbd> / <kbd>Ctrl</kbd>+<kbd>[</kbd></span></div>
+                  <div><span>In Build: select, floor, wall, door, erase, furniture, surface, name</span><span class="k"><kbd>V</kbd> <kbd>F</kbd> <kbd>R</kbd> <kbd>D</kbd> <kbd>E</kbd> <kbd>B</kbd> <kbd>S</kbd> <kbd>L</kbd></span></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Presence: only the office shows who is here, because it is the only place you can see them. -->
+    <aside class="presence" id="presence" aria-label="Present" hidden></aside>
+  </div>
+
+  <!--
+    The command palette. It is the one accessible dialog the client has: it is opened from a visible
+    control and from a key, it moves focus into itself and gives it back on close, and it says what it is
+    with a label rather than by looking modal.
+  -->
+  <div class="scrim" id="palette" hidden>
+    <div class="palette" role="dialog" aria-modal="true" aria-labelledby="palette-title">
+      <div class="head">
+        <span class="sect" id="palette-title">Command or place</span>
+        <input id="palette-input" type="text" role="combobox" aria-expanded="true" aria-controls="palette-list"
+               aria-autocomplete="list" placeholder="Type … — ↑↓ to choose, Enter to run, Esc to close" autocomplete="off" />
+      </div>
+      <ul id="palette-list" role="listbox" aria-label="Commands and places"></ul>
+      <div class="none" id="palette-none" hidden>nothing found</div>
+    </div>
+  </div>
+
+  <footer class="status" id="status" role="status" aria-live="polite">
+    <span class="st" id="status-link">connecting …</span>
+    <span class="sep" aria-hidden="true"></span>
+    <button class="st mic-btn" id="status-mic-btn" type="button" aria-pressed="false" title="Mute (M)">
+      <svg class="ico" viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 1.6a2.15 2.15 0 0 1 2.15 2.15v3.7a2.15 2.15 0 0 1-4.3 0v-3.7A2.15 2.15 0 0 1 8 1.6Z" />
+        <path d="M3.7 7.3a4.3 4.3 0 0 0 8.6 0M8 11.6v2.4M5.7 14h4.6" />
+      </svg>
+      <span id="status-mic">Sound off</span>
+    </button>
+    <span class="sep" aria-hidden="true"></span>
+    <span class="st" id="hud">—</span>
+    <span class="st refuse" id="status-refuse"></span>
+    <span class="st hint" id="status-hint"></span>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
