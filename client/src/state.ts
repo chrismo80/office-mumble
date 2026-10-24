@@ -11,7 +11,7 @@ import type { PaintedCells } from './floorArt';
 import type { Wire } from './host';
 import type { Minimap } from './minimap';
 import type { Crowd } from './people';
-import type { RoomSettings, Settings } from './settings';
+import type { GivesWay, RoomSettings, Settings } from './settings';
 import type { Transform } from './view';
 import type { Shell } from './shell';
 import type { PanSide, SoundProfile, Voices } from './voice';
@@ -63,6 +63,9 @@ export class State {
   resyncFigure!: boolean;
   showAudible!: boolean;
   showLight!: boolean;
+  /** The three ways the room gives way to the camera from behind (`V`), each a switch in the settings and kept
+   *  on this machine: the office is shared, the way I look at it is mine. */
+  givesWay!: GivesWay;
   seat!: Seat | null;
   deadZone!: number;
   audibleCells!: Set<number>;
