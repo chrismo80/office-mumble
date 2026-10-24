@@ -29,9 +29,11 @@ const heldKeys = new Set<string>();
  *  plan's own view (`frontCell`) and on a turned one (`frontCellTurned`) alike. */
 function shownCell(floor: Floor, lx: number, ly: number): [number, number] {
   const [x, y] = toPlan(S.transform, lx, ly);
+  const fromBehind = sceneNow();
+  const cut = fromBehind?.wallsGiveWay ? fromBehind.cut : undefined;
   const shown =
     S.transform.yaw !== undefined
-      ? frontCellTurned(floor.cells, S.cellM, S.transform, lx, ly, sceneNow()?.cut)
+      ? frontCellTurned(floor.cells, S.cellM, S.transform, lx, ly, cut)
       : frontCell(floor.cells, S.cellM, x, y, squashOf(S.transform));
   // A flight stands up off the floor like a wall does, and whichever of the two is nearer the viewer is in front.
   const flight = flightCellAt(floor, S.myFloor, S.cellM, S.transform, lx, ly);
@@ -575,6 +577,7 @@ export function centreOn(x: number, y: number): void {
 
 export function renderSwitches(): void {
   S.settings.showSwitches(S.muted, S.showAudible, S.showLight);
+  S.settings.showGivesWay(S.givesWay);
   S.settings.showDeadZone(S.deadZone);
   S.settings.showSeat(seatLabel());
   S.settings.showSound(S.soundProfile, S.soundSide);

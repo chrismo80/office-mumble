@@ -8,6 +8,10 @@ import type { PanSide, SoundProfile, Voices } from './voice';
 /** How the room sounds: the two cutoffs that tell a small office from an open floor, and the tail between them. */
 export type RoomSettings = { studio: number; open: number; hallMax: number; hallLevel: number };
 
+/** The three ways the room gives way to the camera from behind (`V`): the walls between it and my figure cut
+ *  down, a piece that covers me drawn see-through, and everyone drawn again faintly over what stands. */
+export type GivesWay = { walls: boolean; furniture: boolean; ghosts: boolean };
+
 export type SettingsHooks = {
   /** The mute switch was pressed. */
   toggleMute: () => void;
@@ -15,6 +19,8 @@ export type SettingsHooks = {
   toggleAudible: () => void;
   /** The day-and-night switch was pressed: whether the room follows the clock. */
   toggleLight: () => void;
+  /** A way the room gives way was turned: walls cut down, what covers me see-through, figures drawn twice. */
+  toggleGivesWay: (which: keyof GivesWay) => void;
   /** A different sound profile or a different side was chosen. */
   chooseSound: (profile: SoundProfile, side: PanSide) => void;
   /** How far from the middle the view may be left alone before it follows, as a share of the half-window. */
@@ -36,6 +42,9 @@ export class Settings {
   private readonly mute = document.querySelector<HTMLButtonElement>('#settings-mute')!;
   private readonly audible = document.querySelector<HTMLButtonElement>('#settings-audible')!;
   private readonly light = document.querySelector<HTMLButtonElement>('#settings-light')!;
+  private readonly walls = document.querySelector<HTMLButtonElement>('#settings-walls')!;
+  private readonly furniture = document.querySelector<HTMLButtonElement>('#settings-furniture')!;
+  private readonly ghosts = document.querySelector<HTMLButtonElement>('#settings-ghosts')!;
   /** The three curves, as pictures: a profile is a shape, not a word to read. */
   private readonly profiles = Array.from(
     document.querySelectorAll<HTMLButtonElement>('#sound-profile .profile'),
@@ -77,6 +86,9 @@ export class Settings {
     this.mute.addEventListener('click', () => hooks.toggleMute());
     this.audible.addEventListener('click', () => hooks.toggleAudible());
     this.light.addEventListener('click', () => hooks.toggleLight());
+    this.walls.addEventListener('click', () => hooks.toggleGivesWay('walls'));
+    this.furniture.addEventListener('click', () => hooks.toggleGivesWay('furniture'));
+    this.ghosts.addEventListener('click', () => hooks.toggleGivesWay('ghosts'));
     for (const button of this.profiles) {
       button.addEventListener('click', () => {
         this.profile = button.dataset.profile as SoundProfile;
@@ -108,6 +120,13 @@ export class Settings {
     this.mute.setAttribute('aria-checked', muted ? 'true' : 'false');
     this.audible.setAttribute('aria-checked', audible ? 'true' : 'false');
     this.light.setAttribute('aria-checked', light ? 'true' : 'false');
+  }
+
+  /** The three ways the room gives way, drawn from the state like the other switches. */
+  showGivesWay(givesWay: GivesWay): void {
+    this.walls.setAttribute('aria-checked', givesWay.walls ? 'true' : 'false');
+    this.furniture.setAttribute('aria-checked', givesWay.furniture ? 'true' : 'false');
+    this.ghosts.setAttribute('aria-checked', givesWay.ghosts ? 'true' : 'false');
   }
 
   /** The sound profile and the side, drawn from the state like the switches. */

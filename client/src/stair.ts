@@ -291,6 +291,7 @@ function flight(scene: Scene, stair: Stair): Standing[] {
     const top = Math.min(...ys);
     // A tread between the camera and my figure that covers it is drawn see-through, as furniture there is.
     const covers =
+      scene.furnitureGivesWay === true &&
       scene.cut !== undefined &&
       scene.mineAt !== undefined &&
       near > scene.cut + 1e-3 &&

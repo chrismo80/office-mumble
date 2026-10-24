@@ -238,7 +238,10 @@ function wallsTurned(scene: Scene): Standing[] {
     const [sx, sy] = toScreen(t, x, y);
     return [sx, sy - z * lift];
   };
-  const heightOf = (row: number, col: number): number => heightIn(cells, cellM, t, row, col, scene.cut);
+  // Walls that give way are cut down to a skirting; with the switch off they keep their full height, and this
+  // is the same value the click finder reads (`input.ts`), so what is drawn is what is clicked.
+  const cut = scene.wallsGiveWay ? scene.cut : undefined;
+  const heightOf = (row: number, col: number): number => heightIn(cells, cellM, t, row, col, cut);
   const lower = (next: Point, h: number): boolean => cells[next[0]]?.[next[1]] === 'doorShut' || heightOf(next[0], next[1]) < h;
   const pane = glassNow();
   // Every wall's shadow as one shape, cast once: a soft shadow is the dearest thing a canvas fills.
@@ -374,7 +377,12 @@ function furnitureTurned(scene: Scene): Standing[] {
     const base = nearness(t, cx, cy) + reach;
     // A piece between the camera and my figure that covers it on the screen is drawn see-through, as the walls
     // there are cut down: from behind, nothing stands in front of me.
-    const covers = scene.cut !== undefined && scene.mineAt !== undefined && base > scene.cut && overlapsFigure(scene.mineAt, t.scale, left, top, shown.w * k, shown.h * k);
+    const covers =
+      scene.furnitureGivesWay === true &&
+      scene.cut !== undefined &&
+      scene.mineAt !== undefined &&
+      base > scene.cut &&
+      overlapsFigure(scene.mineAt, t.scale, left, top, shown.w * k, shown.h * k);
     return {
       base,
       shadow: (g, dx) => g.drawImage(shown.canvas, left + dx, top, shown.w * k, shown.h * k),

@@ -152,7 +152,12 @@ export function sceneNow(): Scene | null {
   return {
     ctx: S.ctx, floor: S.floor, storey: S.myFloor, cellM: S.cellM, transform: S.transform, size: S.transform.scale * S.cellM, sizeY: S.transform.scale * S.cellM * squashOf(S.transform),
     ...(mine && feet
-      ? { cut: nearness(S.transform, mine.x, mine.y), mineAt: [feet[0], feet[1] - (tread?.z ?? 0) * riseOf(S.transform) * S.transform.scale] as [number, number] }
+      ? {
+          cut: nearness(S.transform, mine.x, mine.y),
+          mineAt: [feet[0], feet[1] - (tread?.z ?? 0) * riseOf(S.transform) * S.transform.scale] as [number, number],
+          wallsGiveWay: S.givesWay.walls,
+          furnitureGivesWay: S.givesWay.furniture,
+        }
       : {}),
   };
 }

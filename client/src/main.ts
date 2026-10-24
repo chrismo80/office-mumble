@@ -41,7 +41,7 @@ import { mayBuild, mayDressFigure, type View } from './router';
 import { host } from './host';
 import { drawStanding, furniture, wallsAndDoors } from './standing';
 import { stairs } from './stair';
-import { Settings, type RoomSettings } from './settings';
+import { Settings, type GivesWay, type RoomSettings } from './settings';
 import { createShell } from './shell';
 import { SQUASH } from './depth';
 import { squashOf, toScreen, zoomOf } from './view';
@@ -155,6 +155,9 @@ S.showAudible = false;
 /** Whether the room follows the clock: at nine in the evening it is warm and the lamps are on. A choice, kept
  *  on this machine, because a room that is always twilight is a mood somebody did not ask for. */
 S.showLight = localStorage.getItem('office-mumble:light') !== 'off';
+/** One of the three ways the room gives way, read as this machine last left it: on unless it was turned off. */
+const stored = (which: keyof GivesWay): boolean => localStorage.getItem(`office-mumble:${which}`) !== 'off';
+S.givesWay = { walls: stored('walls'), furniture: stored('furniture'), ghosts: stored('ghosts') };
 /** The camera's dead zone: how far from the middle I may walk before the view follows. A preference of this
  *  window, not of the office — kept here like the clock, and 55% of the half-window unless I say otherwise. */
 /** The place I arrive at, kept on this machine. A cell, not a chair: the plan may be furnished around it,
@@ -245,6 +248,7 @@ S.settings = new Settings(S.voices, {
   toggleMute: () => setMuted(!S.muted),
   toggleAudible: () => setAudible(!S.showAudible),
   toggleLight: () => setLight(!S.showLight),
+  toggleGivesWay: (which) => setGivesWay(which, !S.givesWay[which]),
   setDeadZone: (share) => setDeadZone(share),
   takeSeat: () => takeSeat(),
   forgetSeat: () => forgetSeat(),
@@ -440,7 +444,7 @@ function draw(now: number, here: Map<number, PersonView>): void {
     // words — room names, people's names, and the answer to a click with no way.
     const people = S.crowd.layout(scene, here, { id: S.me, figure: S.myFigure, talking: S.myTalking, muted: S.muted }, S.lock.holder, now);
     drawStanding(scene, [...wallsAndDoors(scene), ...stairs(scene), ...furniture(scene), ...people.figures]);
-    people.ghosts();
+    if (S.givesWay.ghosts) people.ghosts();
     if (mayBuild(S.shell.view())) S.building.draw(scene);
     else drawHover(scene, S.hover, index => S.plan?.floors[index]?.name ?? '');
     // The hour goes on the room, never on its words: a label has to be readable at nine in the evening.
@@ -562,6 +566,13 @@ function setDeadZone(share: number): void {
 function setLight(next: boolean): void {
   S.showLight = next;
   localStorage.setItem('office-mumble:light', next ? 'on' : 'off');
+  renderSwitches();
+}
+
+/** A way the room gives way, turned: a look kept on this machine, not a preference of the office. */
+function setGivesWay(which: keyof GivesWay, next: boolean): void {
+  S.givesWay[which] = next;
+  localStorage.setItem(`office-mumble:${which}`, next ? 'on' : 'off');
   renderSwitches();
 }
 

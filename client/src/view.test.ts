@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { frontCell, frontCellTurned, RISE, SQUASH, WALL_HEIGHT_M } from './depth';
+import { CUT_M, frontCell, frontCellTurned, RISE, SQUASH, WALL_HEIGHT_M } from './depth';
 import { fit, MAX_ZOOM, MIN_ZOOM, pan, toPlan, toScreen, zoomAt, zoomCentred, zoomOf } from './view';
 
 /** One cell is 0.5 m and one cell is 64 px at zoom 1, which is what this many pixels per metre means. */
@@ -68,6 +68,18 @@ describe('the plan-to-screen conversion', () => {
     expect(frontCellTurned(wall, cell, turned, topX, topY - lifted), 'a click on a wall’s top must mean the wall, whichever way the view looks').toEqual([3, 0]);
     const [frontX, frontY] = toScreen(turned, 0.25, 4 * cell + 0.25);
     expect(frontCellTurned(wall, cell, turned, frontX, frontY), 'a click on the floor in front of a wall must mean that floor').toEqual([4, 0]);
+
+    // The walls switch: a wall cut down to a skirting no longer draws its top where it used to, so a click
+    // lifted to the full wall height is above what stands and falls through to the floor cell behind it.
+    expect(
+      frontCellTurned(wall, cell, turned, topX, topY - lifted, undefined),
+      'with the walls giving way off, a click on a wall’s top still means the wall',
+    ).toEqual([3, 0]);
+    const [behindX, behindY] = toPlan(turned, topX, topY - lifted);
+    expect(
+      frontCellTurned(wall, cell, turned, topX, topY - lifted, CUT_M),
+      'a click where a wall cut to a skirting no longer draws its top must mean the floor behind it, not the wall',
+    ).toEqual([Math.floor(behindY / cell), Math.floor(behindX / cell)]);
   });
 });
 

@@ -22,6 +22,11 @@ export type Scene = {
   cut?: number;
   /** From behind a figure: where its feet are on the screen, so what stands in front of it can give way. */
   mineAt?: [number, number];
+  /** From behind a figure: whether the walls between the camera and the figure are cut down to a skirting
+   *  (`depth.ts`), and whether a piece that covers the figure is drawn see-through. Absent — the plan's own
+   *  view, or a switch turned off — the room keeps everything it has. */
+  wallsGiveWay?: boolean;
+  furnitureGivesWay?: boolean;
 };
 
 /**
